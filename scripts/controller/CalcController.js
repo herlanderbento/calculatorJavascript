@@ -1,4 +1,5 @@
 class CalcController {
+    
     constructor() {
         this._locale = 'pt-AO'
         this._displayCalcEl = document.querySelector("#display");
