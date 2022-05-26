@@ -9,12 +9,16 @@ class CalcController {
     }
 
     initialize() {  
-        
+
         this.setDisplayDateTime();
 
         setInterval(() => {
             this.setDisplayDateTime();
         }, 1000);    
+    }
+
+    initButtonsEvents(){
+        let buttons = document.querySelectorAll("£buttons > g, #parts > g");
     }
 
     setDisplayDateTime(){
