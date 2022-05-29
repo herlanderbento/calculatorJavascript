@@ -187,7 +187,6 @@ class CalcController {
 
     get currentDate() {
         return new Date();
-        console.log('Olá mundo!')
     }
 
     set currentDate(value) {
