@@ -48,9 +48,7 @@ class CalcController {
     }
 
     isOperator(value) {
-        // return (['+', '-', '*', '/', '%', '.'].indexOf(value) > -1)
-        const result = (['+', '-', '*', '/', '%', '.'].indexOf(value) > -1)
-        return result;
+        return (['+', '-', '*', '/', '%', '.'].indexOf(value) > -1)
     }
 
     addOperation(value) {
